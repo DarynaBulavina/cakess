@@ -1,0 +1,76 @@
+<html>
+    <title> Дизайн тортів </title>
+    <body>
+        <header>
+    <img src="https://th.bing.com/th/id/R.f444fe3dc0c0032dab0d015965115fb4?rik=YQLzvrN9NJkOwg&riu=http%3a%2f%2fteg.com.ua%2fwp-content%2fuploads%2f2020%2f02%2f1dee5d5ad6aedad18bd7c25ec89ee806.jpg&ehk=gBaqUIKdif8UYXgMue2j62ekOTHhh0P%2fAwps4f6Xbf0%3d&risl=&pid=ImgRaw&r=0">
+       <h1> Дизайни тортів</h1>
+       <nav>
+           <a href="popular">Популярне</a>
+           <a href="HB">Дні народження</a>
+           <a href="muss">Мусові</a>
+      </header>
+      <main>
+          <h2 class="popular"> Приклад популярного дизайну </h2>
+       <p><img src="https://th.bing.com/th/id/OIP.QfTHPYvyzqleB4dHdo4vkAAAAA?rs=1&pid=ImgDetMain"></p>
+       <p> На дизайні цього торту, використана харчова фарба золотого кольору. Також тут шоколадні сфери різних кольорів. Та інші не їстівні деталі декору.</p>
+       <br/>
+       <br/>
+       <h2> Приклад іменинного торту </h2>
+    <p><img class="HB" src="https://i.pinimg.com/originals/2e/a1/e4/2ea1e4d8f40a7b4de35af80a2dbc601f.jpg"></p>
+       <p> Також дуже популярно замовляти торти на день народження з цифрами років, та іменами іменинників.  Торти роблять також з улюбленими персонажами або речами іменинників.</p>
+       <br/>
+       <br/> 
+       <h2 class="muss"> Мусові торти </h2>
+       <p><img src="https://nipunijulie.dk/wp-content/uploads/2019/06/64920473_307062840176804_3936753885208641536_n-1024x1024.jpg"></p>
+       <p> Останнім часом стали популярними мусові торти. В більшості випадків вони виглядають мінімалістично, одного кольору з невеликими візерунками. Також можна зробити більш цікавий декор.</p>
+       <br/>
+          </main>
+          <footer>
+              <p> Сайт був створений для легкого пошуку цікавих дизайнів тортів.</p>
+              <p> Данні автора сайту: 
+                </p>
+          </footer>
+        </body>
+</html>
+
+
+<link>
+header img { 
+    height: 60px;
+    width: 60px;
+}
+header p { 
+    font-size: 30px;
+}
+h1,h2{ 
+    text-align: center;
+}
+header { 
+    background-color: lightpink;
+}
+p img { 
+    height: 250px;
+    width: 250px;
+    float: left;
+}
+p { 
+    font-size: 25px;
+}
+.HB { 
+    float: right;
+}
+body { 
+    background-color: rgb(221, 53, 131);
+}
+footer { 
+    background-color: lightpink;
+}
+nav a { 
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: wheat;
+    margin: 20px;
+}
